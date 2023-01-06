@@ -1,0 +1,20 @@
+{
+  "name": "QiuCopy",
+  "version": "1.0",
+  "description": "Download FeiQiu Doc",
+  "background": {
+    "scripts": ["script/main.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab", "declarativeContent", "http://*/", "https://*/"],
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/q16.png",
+      "32": "images/q32.png",
+      "48": "images/q48.png",
+      "128": "images/q128.png"
+    }
+  },
+  "manifest_version": 2
+}
